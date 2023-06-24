@@ -1,39 +1,37 @@
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import AnimatedLetters from '../AnimatedLetters'
-import Initial from '../../assets/images/Initial.png'
-import './index.scss'
-import Logo from './Logo'
-
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import AnimatedLetters from "../AnimatedLetters";
+import Initial from "../../assets/images/Initial.png";
+import "./index.scss";
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
 
-  const nameArray =  ['r', 'i', 's', 't', 'e', 'n',',']
+  const nameArray = ["r", "i", "s", "t", "e", "n", ","];
   const jobArray = [
-    'a',
-    ' ',
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+    "a",
+    " ",
+    "w",
+    "e",
+    "b",
+    " ",
+    "d",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+    ".",
+  ];
 
-useEffect(() => {
-  setTimeout(() => {
-    return setLetterClass('text-animate-hover')
-  }, 4000)
-}, [])
+  useEffect(() => {
+    setTimeout(() => {
+      return setLetterClass("text-animate-hover");
+    }, 4000);
+  }, []);
 
   return (
     <>
@@ -45,10 +43,7 @@ useEffect(() => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={Initial}
-              alt="Kristen Roggero, Web Developer"
-            />
+            <img src={Initial} alt="Kristen Roggero, Web Developer" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -66,11 +61,9 @@ useEffect(() => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
-
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
