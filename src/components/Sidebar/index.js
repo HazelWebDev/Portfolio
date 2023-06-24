@@ -1,7 +1,7 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/Logos.png'
-import LogoSubtitle from '../../assets/images/BName.png'
+import LogoS from '../../assets/images/3.png'
+import LogoSubtitle from '../../assets/images/FullName.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
@@ -36,14 +36,14 @@ const Sidebar = () => {
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#4E4C67" />
         </NavLink>
         <NavLink 
           activeclassname="active"
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#4E4C67" />
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -51,7 +51,7 @@ const Sidebar = () => {
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#4E4C67" />
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -59,12 +59,12 @@ const Sidebar = () => {
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#4E4C67" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#4E4C67"
           size="3x"
           className='close-icon' />
       </nav>
@@ -77,7 +77,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              color="#4d4d4e"
+              color="#4E4C67"
               className="anchor-icon"
             />
           </a>
@@ -90,7 +90,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faGithub}
-              color="#4d4d4e"
+              color="#4E4C67"
               className="anchor-icon"
             />
           </a>
@@ -103,7 +103,7 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faYoutube}
-              color="#4d4d4e"
+              color="#4E4C67"
               className="anchor-icon"
             />
           </a>
@@ -112,7 +112,7 @@ const Sidebar = () => {
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}
-          color="#ffd700"
+          color="#4E4C67"
           size="3x"
           className='hamburger-icon' />
     </div>

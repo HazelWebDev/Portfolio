@@ -1,3 +1,70 @@
+
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+ h1 {
+     font-size: 53px;
+     font-family: 'Coolvetica';
+     color: #dcd6f7; //h1 text color
+     font-weight: 400;
+     margin-top: 0;
+     position: relative;
+     margin-top: 40px;
+     left: 10px;
+ }
+
+.full {
+    width: 50%;
+    left: 100px;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.left {
+    position: initial;
+    background-color: #A6B1E1;
+    padding: 30px;
+    color:#4E4C67;
+
+}
+
+.right {
+    position: initial;
+    background-color: #B4869F;
+    padding: 30px;
+
+}
+
+.image,
+.Contact,
+.Skills,
+.Language,
+.Hobbies,
+.title,
+.Summary,
+.Experience,
+.Education,
+.project {
+    margin-bottom: 30px;
+}
+
+.h2 {
+    background-color: #985F6F;
+}
+
 .portfolio-page {
     padding-left: 100px;
     padding-right: 50px;
@@ -8,7 +75,8 @@
 
     h1.page-title {
         margin-left: 100px;
-        margin-top: 100px;
+        margin-top: 60px;
+        color: #985F6F; //Resume text
     }
 
     .images-container {
@@ -40,74 +108,10 @@
             z-index: 3;
             padding: 10px 20px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: linear-gradient(
-                180deg,
-                rgba(0, 0, 0, 0.2) 0,
-                rgba(0, 0, 0, 1)
-            );
+            background: linear-gradient(180deg,
+                    rgba(0, 0, 0, 0.2) 0,
+                    rgba(0, 0, 0, 1));
             bottom: -70px;
-        }
-
-        .title {
-            margin-bottom: 0;
-            margin-top: 0;
-            color: #fff;
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 24px;
-        }
-
-        .description {
-            font-size: 14px;
-            margin-bottom: 5px;
-            color: #fff;
-            font-weight: 700;
-        }
-
-        .btn {
-            margin-top: 30px;
-            margin-bottom: 10px;
-            padding: 0 23px;
-            height: 40px;
-            line-height: 34px;
-            border: 2px solid #ffd700;
-            border-radius: 4px;
-            font-size: 14px;
-            color: #fff;
-            background: transparent;
-            text-transform: uppercase;
-            font-weight: 700;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            background: #ffd700;
-        }
-
-        &:after {
-            content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 2;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            opacity: 0;
-        }
-
-        &:hover:after {
-            opacity: 0.85;
-        }
-
-        &:hover .content {
-            bottom: 0;
-            background: transparent;
         }
     }
 }
