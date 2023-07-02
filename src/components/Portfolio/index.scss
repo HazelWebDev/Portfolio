@@ -1,117 +1,104 @@
-
 * {
-    margin: 5;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
     box-sizing: border-box;
 }
 
-body {
-    justify-content: center;
-    align-items: center;
-}
- h1 {
-     font-size: 53px;
-     font-family: 'Coolvetica';
-     color: #fff; //h1 text color
-     font-weight: 400;
-     margin-top: 0;
-     position: relative;
-     margin-top: 40px;
-     left: 10px;
- }
 
-.full {
+
+.image {
+    width: 125px;
+    height: 125px;
+    position: center;
+}
+
+.container {
     width: 50%;
-    left: 100px;
     max-width: 1000px;
     min-height: 100px;
-    background-color: rgb(245, 239, 231);
     margin: 0px;
-    margin-bottom: 45px;
-    margin-left: 45px;
+    padding: 5px;
     display: grid;
     grid-template-columns: 2fr 4fr;
-}
 
-.left {
-    position: initial;
-    background-color: #A6B1E1;
-    padding: 30px;
-    color:#4E4C67;
 
-}
 
-.right {
-    position: initial;
-    background-color: #B4869F;
-    padding: 30px;
+    .leftside {
+        position: initial;
+        background-color: #DCD6F7;
+        margin: 3px;
+        padding: 18px;
+        border: 2px solid #985F6F;
 
-}
+            .education {
+                margin-top: 9px;
+            }
 
-.image,
-.Contact,
-.Skills,
-.Language,
-.Hobbies,
-.title,
-.Summary,
-.Experience,
-.Education,
-.project {
-    margin-bottom: 30px;
-}
+            .skills {
+                margin-top: 9px;
+            }
 
-.h2 {
-    background-color: #985F6F;
-}
+            h2 {
+                margin-top: 9px;
+                color: #985f6f;
+                border-bottom: 1px solid #985f6f;
+            }
 
-.portfolio-page {
-    padding-left: 100px;
-    padding-right: 50px;
-    width: calc(100% - 150px);
-    position: initial;
-    height: 100%;
-    overflow: auto;
-
-    h1.page-title {
-        margin-left: 100px;
-        margin-top: 60px;
-        color: #985F6F; //Resume text
     }
 
-    .images-container {
-        display: flex;
-        gap: 15px;
-        flex-wrap: wrap;
-        padding-bottom: 100px;
+    .rightside {
+        position: initial;
+        background-color: #A6B1E1;
+        margin: 3px;
+        padding: 18px;
+        border: 2px solid #985F6F;
+
+
+        
     }
 
-    .image-box {
-        position: relative;
-        flex: 1 1 20%;
-        height: 400px;
-        overflow: hidden;
-        border-radius: 10px;
-        max-width: calc(25% - 10px);
+}
 
-        .portfolio-image {
-            position: absolute;
-            z-index: 2;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
 
-        .content {
-            position: absolute;
-            width: 100%;
-            z-index: 3;
-            padding: 10px 20px;
-            transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: linear-gradient(180deg,
-                    rgba(0, 0, 0, 0.2) 0,
-                    rgba(0, 0, 0, 1));
-            bottom: -70px;
-        }
-    }
+
+.contactTitle {
+    border-bottom: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    border-bottom: 1px solid #985f6f;
+    color: #985f6f;
+}
+
+.aboutMe {
+    margin: 2px;
+    margin-top: 7px;
+}
+
+ul,
+li {
+    margin-left: 10px;
+}
+
+.experiences {
+    margin-top: 4px;
+}
+
+.experience {
+    border-bottom: 1px solid #985f6f;
+}
+
+.duration {
+    font-style: italic;
+}
+
+.myProjects {
+    margin-top: 15px;
+    border-bottom: 1px solid #985f6f;
+}
+
+h4 {
+    margin-top: 5px;
 }
