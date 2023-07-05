@@ -47,10 +47,10 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            Want to connect? Have any questions? Say no more! You can reach me
+          <b>
+            Want to connect? Have any questions? Simply want to leave a comment? You can reach me
             by filing out this form below.
-          </p>
+          </b>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
