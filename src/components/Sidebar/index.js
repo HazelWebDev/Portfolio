@@ -71,7 +71,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/kristen-roggero-55b5b519a/"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,7 +84,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/kristenroggero"
             target="_blank"
             rel="noreferrer"
           >
@@ -97,7 +97,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
+            href="https://www.youtube.com/channel/UCb-SQv7sPjV78ZS3UYwuB9g"
             rel="noreferrer"
             target="_blank"
           >
