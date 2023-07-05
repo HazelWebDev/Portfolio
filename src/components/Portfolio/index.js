@@ -3,6 +3,7 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
+
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
@@ -30,118 +31,121 @@ const Portfolio = () => {
           <div className="left">
             <div className="image">
               <img
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20220202083519/gfglogo.png"
-                alt="gfg-logo"
+                src="src/assets/images/profilePic.jpg"
+                alt="Portrait"
               />
             </div>
             <div className="Contact">
-              <h2>Contact</h2>
-              <p>
-                <b>Email id:</b>xyz@gmail.com
-              </p>
-              <p>
-                <b>Mobile no :</b>1234567890
-              </p>
+              <h2>Contact Me</h2>
+              <b>
+                <em>Email:</em> 
+                kristenroggero@gmail.com
+              </b>
+              <br />
+              <b>
+                <em>Mobile: </em>
+                +1 (341) 777-8729
+              </b>
             </div>
-            <div className="Skills">
-              <h2>Skills</h2>
+            
+            <div className="Skills1">
+              <h2>Technical Skills</h2>
               <ul>
-                <li>
-                  <b>Programming Languages : Python, Java, C++</b>
-                </li>
-                <li>
-                  <b>Frontend : HTML5, CSS3, JavaScript, React</b>
-                </li>
-                <li>
-                  <b>Backend : python Node.js</b>
-                </li>
+                <li>HTML5/CSS3</li>
+                <li>JavaScript(ES6+)</li>
+                <li>React.js</li>
+                <li>GitHub</li>
+                <li>React</li>
               </ul>
             </div>
-            <div className="Language">
-              <h2>Language</h2>
+            <div className="Skills2">
+              <h2>Soft Skills</h2>
               <ul>
-                <li>English</li>
-                <li>Hind di</li>
+                <li>
+                  <b>English writing and composition</b></li>
+                <li>Time management</li>
+                <li>Problem solving</li>
+                <li>Communication and collaboration</li>
               </ul>
             </div>
             <div className="Hobbies">
               <h2>Hobbies</h2>
               <ul>
-                <li>Playing cricket</li>
+                <li>Playing chess</li>
+                <li>Crocheting</li>
+                <li>Coding</li>
                 <li>Swimming</li>
               </ul>
             </div>
           </div>
           <div className="right">
             <div className="name">
-              <h1>GeeksforGeeks</h1>
+              <h1>Kristen Roggero</h1>
             </div>
             <div className="title">
-              <p>Web Developer</p>
+              <h2>Web Developer</h2>
             </div>
             <div className="Summary">
-              <h2>Summary</h2>
-              <p>
+              <h3>My Goal</h3>
+              <b>
                 To secure a challenging position in a reputable organization to
-                expand my learning knowledge and skill
-              </p>
+                expand my learning knowledge and skill, as well incorporate art and design
+                into the evergrowing techical world.
+              </b>
+            </div>
+            <div className="Education">
+              <h2>Education</h2>
+              <h3>California State University, East Bay</h3>
+              <ul>
+                <li>Aquired a Bachelor's Degree from four years of rigorous study.</li>
+                <li>Two time recipient of Dean's List from a stellar academic grade point average.</li>
+              </ul>
             </div>
             <div className="Experience">
               <h2>Experience</h2>
-              <h3>Abc webdev pvt ltd - Senior Web Developer</h3>
-              <p>January 2022 to Present</p>
+              <h3>Infosys - Front End Developer</h3>
+              <h6>August 2022 to Present</h6>
               <ul>
                 <li>
-                  Actively engaged in web creative design and development.
+                  Collaborate with peers and mentors to create lively, engaging and stylish user interfaces.
                 </li>
-                <li>Designing project & planning</li>
+                <li>Test and problem solve to ensure that our design reaches its ultimate potential.</li>
               </ul>
-              <h3>Xyz webdev pvt ltd - junior web developer</h3>
-              <p>August 2021 to December 2021</p>
+              <h3>Revature - Full Stack Developer</h3>
+              <h6>March 2022 to August 2022</h6>
               <ul>
                 <li>
-                  Actively engaged in web creative design and development.
+                  Actively engaged in web creative design and development by following the software development life cycle.
                 </li>
                 <li>Designing project & planning</li>
                 <li>Working on designing</li>
               </ul>
             </div>
-            <div className="Education">
-              <h2>Education</h2>
-              <table>
-                <tr>
-                  <th>University/college </th>
-                  <th>Passing year </th>
-                  <th>percentage/cgpa</th>
-                </tr>
-                <tr>
-                  <td>xyz</td>
-                  <td>2020</td>
-                  <td>8.9</td>
-                </tr>
-                <tr>
-                  <td>pqr</td>
-                  <td>2018</td>
-                  <td>89%</td>
-                </tr>
-              </table>
-            </div>
+           
             <div className="project">
-              <ul>
-                <li>
-                  <h2>Project1</h2>
-                  <p>This project is based on html & used React</p>
-                </li>
-                <li>
-                  <h2>Project2</h2>
-                  <p>This project is based on html & used React</p>
-                </li>
+            <h2>Project Experience</h2>
+              <h3>Banking Application</h3>
+                <ul>
+                  <li>
+                    <b>While in charge of the user interface, I established a complimentary color scheme that promoted 
+                      user-friendliness and ease of use, resulting in easy site direction. 
+                    </b>
+                  </li>
+                </ul>
+              <h3>Shopping Application</h3>
+                <ul>
+                  <li>
+                    <b>Implemented all stages of the SDLC to complete a fully functional shoppping 
+                      website similar to Amazon. My goal was to create the home page, the login page, and the 
+                      checkout page.
+                    </b>
+                  </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="pulse" />
     </>
   );
 };
