@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import profilePic from "../../assets/images/profilePic.jpg";
+
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
