@@ -51,11 +51,14 @@ const Portfolio = () => {
             <div className="Skills1">
               <h2>Technical Skills</h2>
               <ul>
-                <li>HTML5/CSS3</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
                 <li>JavaScript(ES6+)</li>
                 <li>React.js</li>
                 <li>GitHub</li>
-                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+                
               </ul>
             </div>
             <div className="Skills2">
@@ -90,7 +93,8 @@ const Portfolio = () => {
               <b>
                 To secure a challenging position in a reputable organization to
                 expand my learning knowledge and skill, as well incorporate art and design
-                into the evergrowing techical world.
+                into the evergrowing techical world. My main goal is to create remarkable and stunning 
+                web applications with powerful technologies like React.
               </b>
             </div>
             <div className="Education">
@@ -107,9 +111,15 @@ const Portfolio = () => {
               <h6>August 2022 to Present</h6>
               <ul>
                 <li>
-                  Collaborate with peers and mentors to create lively, engaging and stylish user interfaces.
+                  Collaborate with peers and mentors to create lively, engaging and stylish user interfaces with 
+                  HTML, CSS, JavaScript and React.
                 </li>
-                <li>Test and problem solve to ensure that our design reaches its ultimate potential.</li>
+                <li>
+                  Overcome code challenges and/or bugs through persistence in problem solving and bug testing both independently
+                  and in a collaborative setting.
+                </li>
+                <li>Collaborate with cohorts and leaders to ensure the design and creation of React applications are at its upmost
+                potential, making front-end applications the absolute best they can be</li>
               </ul>
               <h3>Revature - Full Stack Developer</h3>
               <h6>March 2022 to August 2022</h6>
@@ -117,8 +127,8 @@ const Portfolio = () => {
                 <li>
                   Actively engaged in web creative design and development by following the software development life cycle.
                 </li>
-                <li>Designing project & planning</li>
-                <li>Working on designing</li>
+                <li>Utilized Java to create a full stack shopping application similar to Amazon, with checkout functions, add to cart, and more.</li>
+                <li>Conducted code reviews and consistent practice of the most effective design and implementation choices.</li>
               </ul>
             </div>
            
@@ -137,7 +147,16 @@ const Portfolio = () => {
                   <li>
                     <b>Implemented all stages of the SDLC to complete a fully functional shoppping 
                       website similar to Amazon. My goal was to create the home page, the login page, and the 
-                      checkout page.
+                      checkout page. Additionally, created the checkout page that shows what products one has added to their cart.
+                    </b>
+                  </li>
+              </ul>
+                         <h3>Personal Portfolio</h3>
+                <ul>
+                  <li>
+                    <b>Designed and developed this very portfolio, utilizing HTML, CSS, JavaScript, and React. Email.js made it easy to create the fully
+                        functional contact page, and React was very helpful as the components are reusable, making it easy to add the animated letters throughout'
+                        each page.
                     </b>
                   </li>
               </ul>
